@@ -1,0 +1,33 @@
+2024-05-13T18:36:35.421+05:30  INFO 3092 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : Starting ManagePicsUtilityApplication using Java 17.0.9 with PID 3092 (G:\github\arjun-bhalekar\manage-pics-utility\build\classes\java\main started by Arjun in G:\github\arjun-bhalekar\manage-pics-utility)
+2024-05-13T18:36:35.423+05:30  INFO 3092 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-13T18:36:36.303+05:30  INFO 3092 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : Started ManagePicsUtilityApplication in 1.288 seconds (process running for 1.653)
+2024-05-13T18:36:46.308+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
+2024-05-13T18:36:46.311+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-13T18:36:46.312+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-13T18:36:46.313+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
+2024-05-13T18:36:46.313+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-13T18:36:46.313+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
+2024-05-13T18:36:58.315+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
+2024-05-13T18:36:58.315+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-13T18:36:58.315+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-13T18:36:58.316+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
+2024-05-13T18:36:58.316+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-13T18:36:58.316+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
+2024-05-13T18:37:10.328+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
+2024-05-13T18:37:10.329+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-13T18:37:10.329+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-13T18:37:10.330+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
+2024-05-13T18:37:10.331+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-13T18:37:10.332+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
+2024-05-13T18:37:22.338+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
+2024-05-13T18:37:22.338+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-13T18:37:22.338+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-13T18:37:22.340+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
+2024-05-13T18:37:22.340+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-13T18:37:22.341+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
+2024-05-13T18:37:47.001+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : Starting ManagePicsUtilityApplicationTests using Java 17.0.9 with PID 4184 (started by Arjun in G:\github\arjun-bhalekar\manage-pics-utility)
+2024-05-13T18:37:47.004+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-05-13T18:37:48.414+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : Started ManagePicsUtilityApplicationTests in 1.873 seconds (process running for 3.689)
+2024-05-13T18:37:49.437+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] com.manage.pic.PhotoInfoHelper           : retrieving info for image file :IMG_20230827_182808.jpg
+2024-05-13T18:37:49.564+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] com.manage.pic.PhotoInfoHelper           : DateTime taken : 2023:08:27 18:28:09
+2024-05-13T18:37:49.573+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] com.manage.pic.PhotoInfoHelper           : fetched info for image file :IMG_20230827_182808.jpg
