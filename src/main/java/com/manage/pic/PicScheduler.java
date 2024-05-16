@@ -1,8 +1,7 @@
 package com.manage.pic;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.manage.pic.model.PhotoInfo;
+import com.manage.pic.model.MediaInfo;
 import com.manage.pic.model.TimeTakenInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,12 +28,12 @@ public class PicScheduler {
     private String destDirPath;
 
     @Autowired
-    private PhotoInfoHelper photoInfoHelper;
+    private MediaFileInfoHelper mediaFileInfoHelper;
 
 
     @Scheduled(fixedDelayString = "${fixed.Delay}", initialDelayString = "${initial.delay}")
-    public void processPics() {
-        LOGGER.info("======== process pic job started ========");
+    public void processMediaFileJob() {
+        LOGGER.info("======== Process Media(Image/Videos) Files job started ========");
         LOGGER.info("source dir path : " + srcDirPath);
         LOGGER.info("destination dir path : " + destDirPath);
 
@@ -45,66 +44,134 @@ public class PicScheduler {
 
             File[] imageFiles = srcDirFile.listFiles((dir, name) -> (name.endsWith(".jpg") || name.endsWith(".JPG")));
             if (Objects.nonNull(imageFiles)) {
-                LOGGER.info("No of Image files found : " + imageFiles.length);
-                LOGGER.info("---------------------------------------");
-                for (File imageFile : imageFiles) {
-
-                    PhotoInfo photoInfo = photoInfoHelper.retrieveImageInfo(imageFile);
-                    if (Objects.nonNull(photoInfo)) {
-
-                        try {
-                            //create required folders
-                            String locationOfImage = createImageLocationDir(destDirFile, photoInfo.getTakenInfo());
-                            LOGGER.info("locationOfImage : " + locationOfImage);
-
-
-                            File jsonFile = new File(locationOfImage + File.separator + photoInfo.getFileName().replaceAll(".jpg", ".json"));
-                            objectMapper.writeValue(jsonFile, photoInfo);
-                            LOGGER.info("json file created : " + jsonFile.getAbsolutePath());
-                            //String photoInfoJsonString = objectMapper.writeValueAsString(photoInfo);
-
-
-                            FileInputStream imageFileIs = new FileInputStream(imageFile);
-                            String imageFileCheckSum = DigestUtils.md5DigestAsHex(imageFileIs);
-                            imageFileIs.close();
-                            LOGGER.info("imageFileCheckSum : " + imageFileCheckSum);
-
-                            File destImageFile = new File(locationOfImage + File.separator + photoInfo.getFileName());
-                            boolean isImageFileAlreadyExist = destImageFile.exists();
-                            LOGGER.info("is DestImageFile already Exists : "+ isImageFileAlreadyExist);
-
-                            LOGGER.info("Copying image file from = " + imageFile.getAbsolutePath());
-                            LOGGER.info("To Secondary Location = " + destImageFile.getAbsolutePath());
-                            int noOfBytesCopied = FileCopyUtils.copy(imageFile, destImageFile);
-                            LOGGER.info("No. of Bytes copied = " + noOfBytesCopied);
-                            FileInputStream destAppPdfFileIs = new FileInputStream(destImageFile);
-                            String destImageFileCheckSum = DigestUtils.md5DigestAsHex(destAppPdfFileIs);
-                            destAppPdfFileIs.close();
-                            LOGGER.info("Copied imageFileCheckSum : " + destImageFileCheckSum);
-
-                            if (imageFileCheckSum.equals(destImageFileCheckSum)) {
-                                LOGGER.info("Copied File verified successfully with MD5 checksum");
-                                LOGGER.info("Deleting image File : "+imageFile.getAbsolutePath());
-                                boolean isImageFileDeleted = imageFile.delete();
-                                LOGGER.info("Source image File deleted ? : "+isImageFileDeleted);
-
-                            }
-                        } catch (IOException e) {
-                            LOGGER.error("IoException while writing to json file", e);
-                            continue;
-                        }
-
-
-                    }
-                    LOGGER.info("---------------------------------------");
-                }
+                processImageFiles(imageFiles, destDirFile);
             }
+            File[] videoFiles = srcDirFile.listFiles((dir, name) -> name.endsWith(".mp4"));
+            if (Objects.nonNull(videoFiles)) {
+                processVideoFiles(videoFiles, destDirFile);
+            }
+
         } else {
             LOGGER.warn("Either is Source OR Destination directory is not exist !");
         }
 
 
-        LOGGER.info("========== process pic job completed =============");
+        LOGGER.info("======== Process Media(Image/Videos) Files job Completed ========");
+    }
+
+
+    private void processImageFiles(File[] imageFiles, File destDirFile) {
+
+        LOGGER.info("No. of Image files found : " + imageFiles.length);
+        LOGGER.info("---------------------------------------");
+        for (File imageFile : imageFiles) {
+
+            MediaInfo mediaInfo = mediaFileInfoHelper.retrieveImageInfo(imageFile);
+            if (Objects.nonNull(mediaInfo)) {
+
+                try {
+                    //create required folders
+                    String locationOfImage = createImageLocationDir(destDirFile, mediaInfo.getTakenInfo());
+                    LOGGER.info("target locationOfImage : " + locationOfImage);
+
+
+                    File jsonFile = new File(locationOfImage + File.separator + mediaInfo.getFileName().replaceAll(".jpg", ".json"));
+                    objectMapper.writeValue(jsonFile, mediaInfo);
+                    LOGGER.info("json file created : " + jsonFile.getAbsolutePath());
+                    //String photoInfoJsonString = objectMapper.writeValueAsString(photoInfo);
+
+
+                    FileInputStream imageFileIs = new FileInputStream(imageFile);
+                    String imageFileCheckSum = DigestUtils.md5DigestAsHex(imageFileIs);
+                    imageFileIs.close();
+                    LOGGER.info("imageFileCheckSum : " + imageFileCheckSum);
+
+                    File destImageFile = new File(locationOfImage + File.separator + mediaInfo.getFileName());
+                    boolean isImageFileAlreadyExist = destImageFile.exists();
+                    LOGGER.info("is DestImageFile already Exists : " + isImageFileAlreadyExist);
+
+                    LOGGER.info("Copying image file from = " + imageFile.getAbsolutePath());
+                    LOGGER.info("To Secondary Location = " + destImageFile.getAbsolutePath());
+                    int noOfBytesCopied = FileCopyUtils.copy(imageFile, destImageFile);
+                    LOGGER.info("No. of Bytes copied = " + noOfBytesCopied);
+                    FileInputStream destFileIs = new FileInputStream(destImageFile);
+                    String destImageFileCheckSum = DigestUtils.md5DigestAsHex(destFileIs);
+                    destFileIs.close();
+                    LOGGER.info("Copied imageFileCheckSum : " + destImageFileCheckSum);
+
+                    if (imageFileCheckSum.equals(destImageFileCheckSum)) {
+                        LOGGER.info("Copied File verified successfully with MD5 checksum");
+                        LOGGER.info("Deleting image File : " + imageFile.getAbsolutePath());
+                        boolean isImageFileDeleted = imageFile.delete();
+                        LOGGER.info("Source image File deleted ? : " + isImageFileDeleted);
+
+                    }
+                } catch (IOException e) {
+                    LOGGER.error("IoException while processing image file", e);
+                    continue;
+                }
+
+
+            }
+            LOGGER.info("---------------------------------------");
+        }
+
+    }
+
+    private void processVideoFiles(File[] videoFiles, File destDirFile) {
+
+        LOGGER.info("No. of Video files found : " + videoFiles.length);
+        LOGGER.info("---------------------------------------");
+        for (File videoFile : videoFiles) {
+
+            MediaInfo mediaInfo = mediaFileInfoHelper.retrieveVideoInfo(videoFile);
+            if (Objects.nonNull(mediaInfo)) {
+
+                try {
+                    //create required folders
+                    String locationOfVideo = createImageLocationDir(destDirFile, mediaInfo.getTakenInfo());
+                    LOGGER.info("target locationOfVideo : " + locationOfVideo);
+
+
+                    File jsonFile = new File(locationOfVideo + File.separator + mediaInfo.getFileName().replaceAll(".mp4", ".json"));
+                    objectMapper.writeValue(jsonFile, mediaInfo);
+                    LOGGER.info("json file created : " + jsonFile.getAbsolutePath());
+
+                    FileInputStream imageFileIs = new FileInputStream(videoFile);
+                    String videoFileCheckSum = DigestUtils.md5DigestAsHex(imageFileIs);
+                    imageFileIs.close();
+                    LOGGER.info("videoFileCheckSum : " + videoFileCheckSum);
+
+                    File destVideoFile = new File(locationOfVideo + File.separator + mediaInfo.getFileName());
+                    boolean isVideoFileAlreadyExist = destVideoFile.exists();
+                    LOGGER.info("is destVideoFile already Exists : " + isVideoFileAlreadyExist);
+
+                    LOGGER.info("Copying video file from = " + videoFile.getAbsolutePath());
+                    LOGGER.info("To Secondary Location = " + destVideoFile.getAbsolutePath());
+                    int noOfBytesCopied = FileCopyUtils.copy(videoFile, destVideoFile);
+                    LOGGER.info("No. of Bytes copied = " + noOfBytesCopied);
+                    FileInputStream destFileIs = new FileInputStream(destVideoFile);
+                    String destVideoFileCheckSum = DigestUtils.md5DigestAsHex(destFileIs);
+                    destFileIs.close();
+                    LOGGER.info("Copied destVideoFileCheckSum : " + destVideoFileCheckSum);
+
+                    if (videoFileCheckSum.equals(destVideoFileCheckSum)) {
+                        LOGGER.info("Copied File verified successfully with MD5 checksum");
+                        LOGGER.info("Deleting Video File : " + videoFile.getAbsolutePath());
+                        boolean isVidFileDeleted = videoFile.delete();
+                        LOGGER.info("Source Video File deleted ? : " + isVidFileDeleted);
+
+                    }
+                } catch (IOException e) {
+                    LOGGER.error("IoException while processing vid file", e);
+                    continue;
+                }
+
+
+            }
+            LOGGER.info("---------------------------------------");
+        }
+
     }
 
 

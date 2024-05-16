@@ -1,6 +1,6 @@
 package com.manage.pic;
 
-import com.manage.pic.model.PhotoInfo;
+import com.manage.pic.model.MediaInfo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -10,12 +10,12 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.io.File;
 
 @ExtendWith(MockitoExtension.class)
-public class PhotoInfoHelperTest {
+public class MediaFileInfoHelperTest {
 
 
 
     @InjectMocks
-    private PhotoInfoHelper photoInfoHelper;
+    private MediaFileInfoHelper mediaFileInfoHelper;
 
 
     @Test
@@ -23,9 +23,9 @@ public class PhotoInfoHelperTest {
 
         File imageFile = new File("src/test/resources/IMG_20230827_182808.jpg");
 
-        PhotoInfo photoInfo =  photoInfoHelper.retrieveImageInfo(imageFile);
-        Assertions.assertNotNull(photoInfo);
-        System.out.println(photoInfo.toString());
+        MediaInfo mediaInfo =  mediaFileInfoHelper.retrieveImageInfo(imageFile);
+        Assertions.assertNotNull(mediaInfo);
+        System.out.println(mediaInfo.toString());
 
     }
 

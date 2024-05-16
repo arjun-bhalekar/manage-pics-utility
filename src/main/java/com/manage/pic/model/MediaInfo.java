@@ -7,7 +7,7 @@ import lombok.*;
 @Getter
 @Builder
 @ToString
-public class PhotoInfo {
+public class MediaInfo {
 
 
     private String fileName;

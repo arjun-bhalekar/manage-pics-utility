@@ -1,33 +1,201 @@
-2024-05-13T18:36:35.421+05:30  INFO 3092 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : Starting ManagePicsUtilityApplication using Java 17.0.9 with PID 3092 (G:\github\arjun-bhalekar\manage-pics-utility\build\classes\java\main started by Arjun in G:\github\arjun-bhalekar\manage-pics-utility)
-2024-05-13T18:36:35.423+05:30  INFO 3092 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : No active profile set, falling back to 1 default profile: "default"
-2024-05-13T18:36:36.303+05:30  INFO 3092 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : Started ManagePicsUtilityApplication in 1.288 seconds (process running for 1.653)
-2024-05-13T18:36:46.308+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
-2024-05-13T18:36:46.311+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
-2024-05-13T18:36:46.312+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
-2024-05-13T18:36:46.313+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
-2024-05-13T18:36:46.313+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
-2024-05-13T18:36:46.313+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
-2024-05-13T18:36:58.315+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
-2024-05-13T18:36:58.315+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
-2024-05-13T18:36:58.315+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
-2024-05-13T18:36:58.316+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
-2024-05-13T18:36:58.316+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
-2024-05-13T18:36:58.316+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
-2024-05-13T18:37:10.328+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
-2024-05-13T18:37:10.329+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
-2024-05-13T18:37:10.329+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
-2024-05-13T18:37:10.330+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
-2024-05-13T18:37:10.331+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
-2024-05-13T18:37:10.332+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
-2024-05-13T18:37:22.338+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== process pic job started ========
-2024-05-13T18:37:22.338+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
-2024-05-13T18:37:22.338+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
-2024-05-13T18:37:22.340+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No of Image files found : 0
-2024-05-13T18:37:22.340+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
-2024-05-13T18:37:22.341+05:30  INFO 3092 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ========== process pic job completed =============
-2024-05-13T18:37:47.001+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : Starting ManagePicsUtilityApplicationTests using Java 17.0.9 with PID 4184 (started by Arjun in G:\github\arjun-bhalekar\manage-pics-utility)
-2024-05-13T18:37:47.004+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2024-05-13T18:37:48.414+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : Started ManagePicsUtilityApplicationTests in 1.873 seconds (process running for 3.689)
-2024-05-13T18:37:49.437+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] com.manage.pic.PhotoInfoHelper           : retrieving info for image file :IMG_20230827_182808.jpg
-2024-05-13T18:37:49.564+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] com.manage.pic.PhotoInfoHelper           : DateTime taken : 2023:08:27 18:28:09
-2024-05-13T18:37:49.573+05:30  INFO 4184 --- [manage-pics-utility] [Test worker] com.manage.pic.PhotoInfoHelper           : fetched info for image file :IMG_20230827_182808.jpg
+2024-05-14T10:58:57.726+05:30  INFO 1600 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : Starting ManagePicsUtilityApplication using Java 17.0.9 with PID 1600 (G:\github\arjun-bhalekar\manage-pics-utility\build\classes\java\main started by Arjun in G:\github\arjun-bhalekar\manage-pics-utility)
+2024-05-14T10:58:57.734+05:30  INFO 1600 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-14T10:58:58.745+05:30  INFO 1600 --- [manage-pics-utility] [main] c.m.pic.ManagePicsUtilityApplication     : Started ManagePicsUtilityApplication in 1.47 seconds (process running for 1.911)
+2024-05-14T10:59:08.738+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T10:59:08.749+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T10:59:08.749+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T10:59:08.751+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 2
+2024-05-14T10:59:08.752+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:08.752+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : retrieving info for image file :IMG_20230827_182808.jpg
+2024-05-14T10:59:08.832+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : DateTime taken : 2023:08:27 18:28:09
+2024-05-14T10:59:08.837+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : fetched info for image file :IMG_20230827_182808.jpg
+2024-05-14T10:59:08.844+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : createdDirs : true
+2024-05-14T10:59:08.844+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : target locationOfImage : G:\pic-process-demo\dest-dir\2023\8
+2024-05-14T10:59:08.885+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : json file created : G:\pic-process-demo\dest-dir\2023\8\IMG_16931410890007984.json
+2024-05-14T10:59:08.922+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : imageFileCheckSum : 0514b66707a4be14100a178f0a4de8a8
+2024-05-14T10:59:08.922+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : is DestImageFile already Exists : false
+2024-05-14T10:59:08.923+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copying image file from = G:\pic-process-demo\src-dir\IMG_20230827_182808.jpg
+2024-05-14T10:59:08.923+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : To Secondary Location = G:\pic-process-demo\dest-dir\2023\8\IMG_16931410890007984.jpg
+2024-05-14T10:59:08.937+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Bytes copied = 2742483
+2024-05-14T10:59:08.952+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied imageFileCheckSum : 0514b66707a4be14100a178f0a4de8a8
+2024-05-14T10:59:08.952+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied File verified successfully with MD5 checksum
+2024-05-14T10:59:08.953+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Deleting image File : G:\pic-process-demo\src-dir\IMG_20230827_182808.jpg
+2024-05-14T10:59:08.954+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Source image File deleted ? : true
+2024-05-14T10:59:08.955+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:08.955+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : retrieving info for image file :IMG_20230827_183107.jpg
+2024-05-14T10:59:08.967+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : DateTime taken : 2023:08:27 18:31:07
+2024-05-14T10:59:08.968+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : fetched info for image file :IMG_20230827_183107.jpg
+2024-05-14T10:59:08.968+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : createdDirs : false
+2024-05-14T10:59:08.969+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : target locationOfImage : G:\pic-process-demo\dest-dir\2023\8
+2024-05-14T10:59:08.971+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : json file created : G:\pic-process-demo\dest-dir\2023\8\IMG_16931412670009898.json
+2024-05-14T10:59:08.978+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : imageFileCheckSum : 082a2040960ffa503702758a3dad8995
+2024-05-14T10:59:08.978+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : is DestImageFile already Exists : false
+2024-05-14T10:59:08.978+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copying image file from = G:\pic-process-demo\src-dir\IMG_20230827_183107.jpg
+2024-05-14T10:59:08.979+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : To Secondary Location = G:\pic-process-demo\dest-dir\2023\8\IMG_16931412670009898.jpg
+2024-05-14T10:59:08.985+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Bytes copied = 2422825
+2024-05-14T10:59:08.996+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied imageFileCheckSum : 082a2040960ffa503702758a3dad8995
+2024-05-14T10:59:08.997+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied File verified successfully with MD5 checksum
+2024-05-14T10:59:08.997+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Deleting image File : G:\pic-process-demo\src-dir\IMG_20230827_183107.jpg
+2024-05-14T10:59:08.998+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Source image File deleted ? : true
+2024-05-14T10:59:08.998+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:08.999+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 4
+2024-05-14T10:59:08.999+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:09.008+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : last modified Time : Wed Jun 14 08:04:33 IST 2023
+2024-05-14T10:59:09.009+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : createdDirs : true
+2024-05-14T10:59:09.009+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : target locationOfVideo : G:\pic-process-demo\dest-dir\2023\6
+2024-05-14T10:59:09.010+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : json file created : G:\pic-process-demo\dest-dir\2023\6\VID_16867100730007186.json
+2024-05-14T10:59:09.163+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : videoFileCheckSum : 98367ae6da23725010116fdc92df6486
+2024-05-14T10:59:09.163+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : is destVideoFile already Exists : false
+2024-05-14T10:59:09.163+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copying video file from = G:\pic-process-demo\src-dir\VID_20230614_080410.mp4
+2024-05-14T10:59:09.163+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : To Secondary Location = G:\pic-process-demo\dest-dir\2023\6\VID_16867100730007186.mp4
+2024-05-14T10:59:09.240+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Bytes copied = 55191188
+2024-05-14T10:59:09.545+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied destVideoFileCheckSum : 98367ae6da23725010116fdc92df6486
+2024-05-14T10:59:09.545+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied File verified successfully with MD5 checksum
+2024-05-14T10:59:09.545+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Deleting Video File : G:\pic-process-demo\src-dir\VID_20230614_080410.mp4
+2024-05-14T10:59:09.553+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Source Video File deleted ? : true
+2024-05-14T10:59:09.553+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:09.553+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : last modified Time : Wed Jun 14 08:07:45 IST 2023
+2024-05-14T10:59:09.553+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : createdDirs : false
+2024-05-14T10:59:09.554+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : target locationOfVideo : G:\pic-process-demo\dest-dir\2023\6
+2024-05-14T10:59:09.555+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : json file created : G:\pic-process-demo\dest-dir\2023\6\VID_16867102650005864.json
+2024-05-14T10:59:09.802+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : videoFileCheckSum : e99a1ed7822f97f21b25d95cc1de2f8d
+2024-05-14T10:59:09.803+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : is destVideoFile already Exists : false
+2024-05-14T10:59:09.803+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copying video file from = G:\pic-process-demo\src-dir\VID_20230614_080706.mp4
+2024-05-14T10:59:09.803+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : To Secondary Location = G:\pic-process-demo\dest-dir\2023\6\VID_16867102650005864.mp4
+2024-05-14T10:59:09.949+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Bytes copied = 97601828
+2024-05-14T10:59:10.205+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied destVideoFileCheckSum : e99a1ed7822f97f21b25d95cc1de2f8d
+2024-05-14T10:59:10.206+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied File verified successfully with MD5 checksum
+2024-05-14T10:59:10.206+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Deleting Video File : G:\pic-process-demo\src-dir\VID_20230614_080706.mp4
+2024-05-14T10:59:10.217+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Source Video File deleted ? : true
+2024-05-14T10:59:10.217+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:10.217+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : last modified Time : Wed Jun 14 08:11:19 IST 2023
+2024-05-14T10:59:10.218+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : createdDirs : false
+2024-05-14T10:59:10.218+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : target locationOfVideo : G:\pic-process-demo\dest-dir\2023\6
+2024-05-14T10:59:10.218+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : json file created : G:\pic-process-demo\dest-dir\2023\6\VID_16867104790005884.json
+2024-05-14T10:59:10.399+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : videoFileCheckSum : 7df8b62ad7618db914872587f66cd2ff
+2024-05-14T10:59:10.399+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : is destVideoFile already Exists : false
+2024-05-14T10:59:10.400+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copying video file from = G:\pic-process-demo\src-dir\VID_20230614_081049.mp4
+2024-05-14T10:59:10.400+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : To Secondary Location = G:\pic-process-demo\dest-dir\2023\6\VID_16867104790005884.mp4
+2024-05-14T10:59:10.493+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Bytes copied = 73421085
+2024-05-14T10:59:10.693+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied destVideoFileCheckSum : 7df8b62ad7618db914872587f66cd2ff
+2024-05-14T10:59:10.693+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied File verified successfully with MD5 checksum
+2024-05-14T10:59:10.693+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Deleting Video File : G:\pic-process-demo\src-dir\VID_20230614_081049.mp4
+2024-05-14T10:59:10.701+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Source Video File deleted ? : true
+2024-05-14T10:59:10.701+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:10.703+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.MediaFileInfoHelper       : last modified Time : Fri Jun 16 11:24:13 IST 2023
+2024-05-14T10:59:10.703+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : createdDirs : false
+2024-05-14T10:59:10.703+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : target locationOfVideo : G:\pic-process-demo\dest-dir\2023\6
+2024-05-14T10:59:10.704+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : json file created : G:\pic-process-demo\dest-dir\2023\6\VID_16868948530003279.json
+2024-05-14T10:59:11.230+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : videoFileCheckSum : 414a3357c70e436dae608d557f96aab8
+2024-05-14T10:59:11.232+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : is destVideoFile already Exists : false
+2024-05-14T10:59:11.232+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copying video file from = G:\pic-process-demo\src-dir\VID_20230616_112151.mp4
+2024-05-14T10:59:11.232+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : To Secondary Location = G:\pic-process-demo\dest-dir\2023\6\VID_16868948530003279.mp4
+2024-05-14T10:59:11.496+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Bytes copied = 212798280
+2024-05-14T10:59:12.028+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied destVideoFileCheckSum : 414a3357c70e436dae608d557f96aab8
+2024-05-14T10:59:12.029+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Copied File verified successfully with MD5 checksum
+2024-05-14T10:59:12.029+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Deleting Video File : G:\pic-process-demo\src-dir\VID_20230616_112151.mp4
+2024-05-14T10:59:12.055+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : Source Video File deleted ? : true
+2024-05-14T10:59:12.056+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:12.056+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T10:59:24.067+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T10:59:24.067+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T10:59:24.067+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T10:59:24.067+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T10:59:24.067+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:24.067+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T10:59:24.068+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:24.068+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T10:59:36.082+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T10:59:36.082+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T10:59:36.082+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T10:59:36.083+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T10:59:36.083+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:36.083+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T10:59:36.083+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:36.083+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T10:59:48.090+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T10:59:48.091+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T10:59:48.091+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T10:59:48.092+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T10:59:48.092+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:48.093+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T10:59:48.093+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T10:59:48.093+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:00:00.100+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:00:00.101+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:00:00.102+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:00:00.102+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:00:00.102+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:00.103+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:00:00.103+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:00.103+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:00:12.118+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:00:12.118+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:00:12.118+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:00:12.118+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:00:12.119+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:12.119+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:00:12.119+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:12.119+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:00:24.129+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:00:24.130+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:00:24.130+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:00:24.130+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:00:24.132+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:24.133+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:00:24.133+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:24.133+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:00:36.137+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:00:36.138+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:00:36.139+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:00:36.140+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:00:36.141+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:36.142+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:00:36.143+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:36.144+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:00:48.155+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:00:48.156+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:00:48.156+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:00:48.156+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:00:48.156+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:48.157+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:00:48.157+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:00:48.157+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:01:00.171+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:01:00.172+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:01:00.172+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:01:00.172+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:01:00.172+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:00.172+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:01:00.172+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:00.172+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:01:12.184+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:01:12.184+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:01:12.184+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:01:12.184+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:01:12.184+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:12.185+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:01:12.185+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:12.185+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:01:24.189+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:01:24.189+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:01:24.190+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:01:24.191+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:01:24.192+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:24.192+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:01:24.192+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:24.193+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:01:36.200+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job started ========
+2024-05-14T11:01:36.201+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : source dir path : G:\pic-process-demo\src-dir
+2024-05-14T11:01:36.201+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : destination dir path : G:\pic-process-demo\dest-dir
+2024-05-14T11:01:36.202+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Image files found : 0
+2024-05-14T11:01:36.202+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:36.203+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : No. of Video files found : 0
+2024-05-14T11:01:36.203+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ---------------------------------------
+2024-05-14T11:01:36.204+05:30  INFO 1600 --- [manage-pics-utility] [scheduling-1] com.manage.pic.PicScheduler              : ======== Process Media(Image/Videos) Files job Completed ========
+2024-05-14T11:02:08.877+05:30  INFO 6644 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : Starting ManagePicsUtilityApplicationTests using Java 17.0.9 with PID 6644 (started by Arjun in G:\github\arjun-bhalekar\manage-pics-utility)
+2024-05-14T11:02:08.879+05:30  INFO 6644 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-05-14T11:02:09.691+05:30  INFO 6644 --- [manage-pics-utility] [Test worker] c.m.p.ManagePicsUtilityApplicationTests  : Started ManagePicsUtilityApplicationTests in 1.077 seconds (process running for 2.313)
+2024-05-14T11:02:10.593+05:30  INFO 6644 --- [manage-pics-utility] [Test worker] com.manage.pic.MediaFileInfoHelper       : retrieving info for image file :IMG_20230827_182808.jpg
+2024-05-14T11:02:10.667+05:30  INFO 6644 --- [manage-pics-utility] [Test worker] com.manage.pic.MediaFileInfoHelper       : DateTime taken : 2023:08:27 18:28:09
+2024-05-14T11:02:10.674+05:30  INFO 6644 --- [manage-pics-utility] [Test worker] com.manage.pic.MediaFileInfoHelper       : fetched info for image file :IMG_20230827_182808.jpg
